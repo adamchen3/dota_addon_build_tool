@@ -1,0 +1,12 @@
+{
+    "source_dir": "E:/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/addon_dir",
+    "target_dir": "E:/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/release_dir",
+    "encrypt_key": "Reture Value Of GetDedicatedServerKeyV2('KEY')",
+    "decrypt_key": "GetDedicatedServerKeyV2('KEY')",
+    "encrypt_files": [
+        "scripts/vscripts/file_to_encrypt.lua"
+    ],
+    "ignore_files": [
+        "scripts/file_not_release.txt"
+    ]
+}
