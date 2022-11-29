@@ -1,0 +1,14 @@
+{
+  "name": "dota_addon_build_tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js",
+    "update": "npm update && cd lua-simple-encrypt && npm update"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
